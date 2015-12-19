@@ -1,6 +1,13 @@
 from Numberjack import *
 
 
+"""
+This program does not work. We are in the process of requesting Numberjack to
+provide support for conditional constraints. We will update this program
+if that happens.
+"""
+
+
 def get_neighbors(patterns, length, i, x, y):
     left_x = max(x-1, 0)
     right_x = min(x+1, length-1)
